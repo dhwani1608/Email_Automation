@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+
+# Virtualenv
+venv/
+.venv/
+
+# Environment and secrets
+.env
+credentials.json
+token.json
+
+# Local databases / vector stores
+db/
+
+# Build artifacts
+.dist/
+dist/
+build/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
